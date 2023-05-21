@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    margin:auto;
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid rgba(0,0,0,0.03);
+
+}   
+
+.manu{
+    display: flex;
+}
+.manu li a{
+    margin: 5px;
+    padding: 5px 20px;
+    color: #2c2c2c;
+    font-weight: 500;
+    opacity: 0.4;
+    transition: all ease 0.3s;
+}
+.manu .active{
+    opacity: 1;
+}
+.manu li a:hover{
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+
+.logo{
+    font-size: 2.1rem;
+    color:#414141;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.right-elemnts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: #2c2c2c;
+}
+.right-elemnts a{
+    margin :0px 10px;
+    color:#2c2c2c;
+}
+.right-elemnts a i{
+    color:#2c2c2c;
+}
+.right-elemnts a:hover i{
+    color: rgb(184, 21, 21);
+    transition: all ease 0.2s;
+}
+
+.signup{
+    align-items: center;
+    padding: 20px 10%;
+    margin:auto;
+    position: fixed;
+    border-style:double ;
+    left:650px;
+    top:180px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.signup h2{
+    font-size: 35px;
+    margin: 30px 0px;
+    color: #2c2c2c;
+}
+
+.signup p{
+    font-size: 8px;
+    margin: 1px 0;
+    color:red;
+    position: relative;
+    top:5px;
+}
+
+.signup input{
+width: 170px;
+height: 25px;
+margin: 10px 0px;
+border-radius: 7px;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.signup button{
+    position: relative;
+    top:30px;
+    left: 25px;
+    width: 120px;
+    height: 30px;
+    
+    color:black;
+    border-radius: 5px;
+    
+   
+}
+.signUpButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+  .signUpButton:hover {background-color: #e7e7e7;}

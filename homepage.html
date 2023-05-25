@@ -1,119 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <!--Title-->
-    <title>Shopping Website</title>
-
-    <!--stylesheet-->   
-    <link rel='stylesheet' type='text/css' media='screen' href='homepage.css'>
-
-    <!--fav-icon-->
-    <link rel="shortcut icon" href="images/5418.png_860.png">
-
-    <!--Import Popins Font Family-->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
-
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-   <!--navigate bar-->
-   <nav class="navigation">
-
-        <!--Logo-->
-        <a href="#"class="logo"> Logo</a>
-
-        <!--Menu-->
-        <ul class="manu">
-            <li><a href="" class="active">Home</a></li>
-            <li><a href="">Sign-Up</a></li>
-            <li><a href="">Log-In</a></li>
-        </ul>
-
-        <!--right-->
-        <div class="right-elements">
-            <!--Search-->
-            <a href="#" class="search">Search</a>
-
-            <!--Cart-->
-            <a href="#" class="cart">Your Cart</a>
-
-            <!--User-->
-            <a href="#" class="user">User</a>
-
+    <div class="navbar">
+        <h2>HomePage</h2>
+        <div class="cart">
+            <i class="bi bi-cart"></i>
+            <div id="cartamount" class="cartamount">0</div>
         </div>
-   </nav>
-   <!--Negations End-->
-
-   <!--Main section-->
-   <section id="main">
-
-    <!--main -content-->
-    <div class="main-content">
-
-        <!--Text-->
-        <div class="main-text">
-            <span>Collection</span>
-            <h1>Iphone 13 Pro</h1>
-            <p>Apple calls the A15 chip in the iPhone 13 Pro models the "world's fastest smartphone chip" with two performance cores and four efficiency cores. The A15 chip in the iPhone 13 Pro and Pro Max features a 5-core GPU, which is one additional GPU core than is available in the standard iPhone 13 models.
-                FOR ONLY 250.00$
-            </p>
-            <a href="#">Shop Now</a>
-        </div>
-
-        <!--main-img-->
-
-        <div class="main-img">
-            <img src="images/apple-iphone-13-pro-colors-09142021.jpg" alt="Products">
-        </div>
-    
     </div>
-   </section>
-   <!--main section End-->
 
-   <!--Category-->
-   <section id="categories">
-
-
-    <!--Heading-->
-    <h2>Phones</h2>
-
-    <!--Box container-->
-    <div class="category-container">
-        <!--box1-->
-        <a href="#" class="category-box">
-            <img src="images/5418.png_860.png" alt="category">
-            <span>Shirts</span>
-        </a>
-
-         <!--box2-->
-        <a href="#" class="category-box">
-            <img src="images/5418.png_860.png" alt="category">
-            <span>Shirts</span>
-        </a>
-
-         <!--box3-->
-        <a href="#" class="category-box">
-            <img src="images/5418.png_860.png" alt="category">
-            <span>Shirts</span>
-        </a>
-
-         <!--box4-->
-        <a href="#" class="category-box">
-            <img src="images/5418.png_860.png" alt="category">
-            <span>Shirts</span>
-        </a>
+    <div class="shop" id="shop">
 
     </div>
-   </section>
 
-                
-    
+
+
+    <script src="homepage.js"></script>
 </body>
 </html>

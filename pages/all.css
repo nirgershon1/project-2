@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+
+}
+
+.manu {
+    display: flex;
+}
+
+.manu li a {
+    margin: 5px;
+    padding: 15px 20px;
+    color: #2c2c2c;
+    font-weight: 500;
+    opacity: 0.4;
+    transition: all ease 0.3s;
+}
+
+.manu .active {
+    opacity: 1;
+}
+
+.manu li a:hover {
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+
+.logo {
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.logo img {
+    width: 130px;
+    height: 80px;
+}
+
+.right-elemnts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: #2c2c2c;
+
+
+}
+
+.right-elemnts a {
+
+    margin: 10px 30px;
+    color: #2c2c2c;
+}
+
+.right-elemnts a i {
+    color: #2c2c2c;
+}
+
+.right-elemnts a:hover i {
+    color: rgb(184, 21, 21);
+    transition: all ease 0.2s;
+}
+
+#cart-button {
+    position: relative;
+    padding: 0px 15px;
+    top: 12px;
+    background-color: aliceblue;
+    border-style: none;
+}
+
+#cart-button img {
+    width: 50px;
+    height: 50px;
+}
+
+
+#admin{
+    position: relative;
+    padding: 0px 15px;
+    top: 8px;
+    background-color: aliceblue;
+   border-style: none;
+ 
+}
+
+#admin img{
+    width: 40px;
+    height: 40px;
+}
+
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+#cart-menu {
+    position: fixed;
+    top: 0px;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #f9f9f9;
+    border-left: 1px solid #ccc;
+    padding: 10px;
+    transition: right 0.3s ease-in-out;
+}
+
+#cart-menu.open {
+    right: 0;
+}
+
+#cart-menu h2 {
+    margin-top: 0;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#close-button {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
